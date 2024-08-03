@@ -1,5 +1,5 @@
 .heading{
-    color: #33272a;
+    color: #990099;
     text-align: center;
     font-size: 40px;
     margin: 30px auto;
@@ -9,6 +9,87 @@
 .sub-heading{
     color: #33272a;
     text-align: center;
-    font-size: 30px;
-    margin: ;
+    font-size: 25px;
+    margin: 30px auto;
 }
+
+.images-container{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+
+.img-card{
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.img{
+    border-radius: 10px;
+}
+
+.img:hover{
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px 8px #f4d5c3 ;
+    transition: 1s;
+}
+
+.why-to-choose-us{
+    color: #594a4e;
+    font-size: 18px;
+    background-color: #f9e5da;
+    margin: 40px auto;
+}
+
+.image-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image{
+    width: 500px;
+    height: 200px;
+}
+
+.sub-heading1{
+    margin: 50px 0 0 40px;
+}
+
+.sub-heading2{
+    font-size: 25px;
+}
+
+.card{
+    width: 300px;
+    border-radius: 20px;
+    border: solid 1px #33272a;
+    margin: 0 35px 35px 35px;
+    display: inline-block;
+}
+
+.card-img{
+    width: 300px;
+    display: block; 
+    border-radius: 20px 20px 0 0 ;  
+}
+
+.img-info{
+    margin: 10px;
+}
+
+.btn{
+    margin: 17px;
+    border-radius: 20px;
+    padding: 8px 25px;
+    background-color: #f5c3a8;
+    color: #33272a;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    box-shadow: 2px 2px 1px 2px #f6bea1;
+    transition: 1s;
+}
+
+.trending-cake-img-container{}
