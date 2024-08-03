@@ -96,13 +96,11 @@
 .trending-cake-img-container{
     display: flex;
     margin: 20px;
-    padding: 20px;
     justify-content: space-between;
 }
 
 .trending-cake-card{
     width: 300px;
-    height: 400px;
     border-radius: 50px 50px 0 0;
     text-align: center;
 }
